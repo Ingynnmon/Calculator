@@ -124,7 +124,7 @@
                 android:minHeight="70dp"
                 android:id="@+id/six"
                 android:layout_toRightOf="@id/five"
-                android:layout_below="@id/nine"/>
+                android:layout_below="@+id/nine" android:layout_marginTop="0dp"/>
         <Button
                 android:text="-"
                 android:textSize="20sp"
