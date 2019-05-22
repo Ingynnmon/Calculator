@@ -7,7 +7,9 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:paddingBottom="10dp">
 
         <EditText
                 android:paddingTop="100dp"
@@ -32,24 +34,29 @@
                     android:textColor="@android:color/holo_red_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/ac"/>
             <Button
                     android:text="del"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/del"/>
             <Button
                     android:text="%"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/percent"/>
             <Button
                     android:text="/"
                     android:textSize="20sp"
+                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/div"/>
         </LinearLayout>
 
@@ -63,24 +70,29 @@
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/seven"/>
             <Button
                     android:text="8"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/eight"/>
             <Button
                     android:text="9"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/nine"/>
             <Button
-                    android:text="X"
+                    android:text="x"
                     android:textSize="20sp"
+                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/mul"/>
         </LinearLayout>
 
@@ -94,24 +106,29 @@
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/four"/>
             <Button
                     android:text="5"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/five"/>
             <Button
                     android:text="6"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/six"/>
             <Button
                     android:text="-"
                     android:textSize="20sp"
+                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/minus"/>
         </LinearLayout>
 
@@ -125,24 +142,29 @@
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/one"/>
             <Button
                     android:text="2"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/two"/>
             <Button
                     android:text="3"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/three"/>
             <Button
                     android:text="+"
                     android:textSize="20sp"
+                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/plus"/>
         </LinearLayout>
 
@@ -151,29 +173,34 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
             <Button
-                    android:layout_marginLeft="5dp"
-                    android:text=""
-                    android:textSize="20sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/change"/>
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:id="@+id/change"/>
             <Button
                     android:text="0"
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/zero"/>
             <Button
                     android:text="."
                     android:textSize="20sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/deci"/>
             <Button
                     android:text="="
                     android:textSize="20sp"
+                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:minHeight="70dp"
                     android:id="@+id/equal"/>
         </LinearLayout>
     </LinearLayout>
